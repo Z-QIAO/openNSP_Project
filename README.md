@@ -1,3 +1,6 @@
+
+![openNorthumbrianChanter](https://github.com/Z-QIAO/openNSP_Project/assets/25248611/400d6992-3876-4413-9d9f-6111e53db103)
+
 # openNSP_Project
 This open-source project aims to create a CAD file of the Northumbrian small-pipes using OpenSCAD. The CAD file is intended for research and experimental purposes, providing an accurate and modifiable 3D model based on historical measurements and chanter data. Different presets can be loaded and shared under the same licence, allowing for a collaborative and evolving design process.
 
