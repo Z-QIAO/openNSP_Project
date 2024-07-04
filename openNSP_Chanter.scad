@@ -1,3 +1,27 @@
+// openNSP_project, chanter section version 1.1
+// Zexuan Qiao, 2024
+// under GPL license ver3
+
+/* [Chanter basic:] */
+// the main external diameter of the chanter
+chanterDiameter = 12;
+// the length of the main external diameter
+chanterLength = 287;
+chanterBrassLength = 312;
+chanterLOA = 320;
+chanterBrassDiameter = 11;
+chanterFootTenor = 8;
+chanterBore = 4.3;
+
+/* [Reed socket and tenon:] */
+reedSocketDiameter = 13.5;
+reedSocketLength = 16;
+// close end
+reedSocketBore1 = 6.5; 
+// open end, enlarge this number can get a tapered socket
+reedSocketBore2 = 6.5; 
+
+/* [Keymount blocks:] */
 blockWidth = 19;
 blockLengthSingle = 7;
 blockLengthShoulder = 18;
@@ -7,18 +31,6 @@ blockLengthBack = 20;
 blockDecoration = 2;
 blockPinHoleSize =1.5;
 blockOffset = 12;
-
-chanterDiameter = 12;
-chanterBore = 4.3;
-chanterLength = 287;
-chanterBrassLength = 312;
-chanterBrassDiameter = 11.;
-chanterLOA = 320;
-chanterFootTenor = 8;
-
-reedSocketDiameter = 13.5;
-reedSocketBore = 6.5;
-reedSocketLength = 16;
 
 singleSlot = 2;
 doubleSlot = 5;
@@ -164,8 +176,7 @@ module keySlot(start, end, width, height) {
   rotate([0, -90, 0])translate([5, start, -width/2])cube([height, abs(end-start), width]);
 }
 
-difference() {
-
+rotate([0,0,-90]) difference() {
   union() {
     rotate([90, 0, 0]) {
       cylinder(h = reedSocketLength, d =reedSocketDiameter);
@@ -224,7 +235,6 @@ difference() {
       translate([0, 0, 282]) cylinder(h = 4, d =15);
     }// Decoration
   }
-
 
   union() {
     rotate([0, 0, 0]) {
@@ -293,7 +303,6 @@ difference() {
     } // left holes and pad seats
 
     rotate([0, -135, 0]) {
-
       translate([0, holePosMiddleBf, 0]) cylinder(h = 10, d = holeSizeMiddleBf); // B flat
       keypadSeatCut(holePosMiddleBf, 0.8, padSizeMiddleBf);
       keySlot(blockPosMiddleBf, holePosMiddleBf, singleSlot, slotHeight );
@@ -306,7 +315,7 @@ difference() {
     rotate([0, 180, 0]) translate([0, blockPosPinky, 0]) translate([blockWidth/2-2, blockLengthPinky/2, -blockWidth/2]) cylinder(h=blockWidth, d = blockPinHoleSize); // right pinky block axis
     rotate([0, 90, 0]) translate([0, blockPosPinky, 0])
       translate([blockWidth/2-2, blockLengthPinky/2, -blockWidth/2]) cylinder(h=blockWidth, d = blockPinHoleSize); // back pinky block axis
-    rotate([90, 0, 0]) cylinder(h = reedSocketLength, d = reedSocketBore); // reed socket bore
+    rotate([90, 0, 0]) cylinder(h = reedSocketLength, d1 = reedSocketBore1, d2 = reedSocketBore2); // reed socket bore
     rotate([-90, 0, 0]) cylinder(h = chanterLOA, d = chanterBore); // main bore
   }
 }
