@@ -46,10 +46,20 @@ The project is continuously evolving, and the following features are planned for
 
 ### Usage
 
-1. Open the `openNorthumbrianChanter.scad` file in OpenSCAD:
+#### Chanter
+1. Open the `openNSP_Chanter.scad` file in OpenSCAD:
 
     ```bash
-    openscad openNorthumbrianChanter.scad
+    openscad openNSP_Chanter.scad
+    ```
+3. View, modify, and render the 3D model as needed.
+4. Export the model to your preferred 3D file format for further use or 3D printing.
+
+#### Drone tops
+1. Open the `openNSP_droneTops.scad` file in OpenSCAD:
+
+    ```bash
+    openscad openNSP_droneTops.scad
     ```
 3. View, modify, and render the 3D model as needed.
 4. Export the model to your preferred 3D file format for further use or 3D printing.
@@ -60,7 +70,7 @@ Contributions are welcome! If you have improvements, bug fixes, or new features 
 
 ## License
 
-This project is licensed under the GNU General Public License v2.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
