@@ -15,7 +15,7 @@ The Northumbrian small-pipes are a distinctive type of bagpipes native to Northu
 - **Adjustable Design:** Design can be adjusted on the fly for various research and experimental needs.
 - **Preset Support:** Different presets can be added for analysis, allowing for comprehensive study and comparison.
 - **Easy Sharing:** Models, codes and presets can be easily shared with the community.
-- **GPL v2 License:** The project is released under the GNU General Public License v2, ensuring that it remains free and open-source.
+- **GPL v2 License:** The project is released under the GNU General Public License v3, ensuring that it remains free and open-source.
 
 ## Roadmap
 
@@ -56,11 +56,21 @@ The project is continuously evolving, and the following features are planned for
 4. Export the model to your preferred 3D file format for further use or 3D printing.
 
 #### Drone tops
-1. Open the `openNSP_droneTops.scad` file in OpenSCAD:
 
-    ```bash
-    openscad openNSP_droneTops.scad
-    ```
+1. Open the `openNSP_droneTops.scad` or `openNSP_droneStands.scad` file in OpenSCAD:
+
+```bash
+openscad openNSP_droneTops.scad
+```
+or
+```bash
+openscad openNSP_droneStands.scad
+```
+
+2. Locate the section of the script that defines the drone profiles. Use the drop-down menu to select the desired drone profile.
+
+<img width="476" alt="Screenshot 2024-07-06 at 22 51 04" src="https://github.com/Z-QIAO/openNSP_Project/assets/25248611/7110f648-ab51-4bd3-a534-c16622125d4d">
+
 3. View, modify, and render the 3D model as needed.
 4. Export the model to your preferred 3D file format for further use or 3D printing.
 
