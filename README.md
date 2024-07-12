@@ -15,17 +15,19 @@ The Northumbrian small-pipes are a distinctive type of bagpipes native to Northu
 - **Adjustable Design:** Design can be adjusted on the fly for various research and experimental needs.
 - **Preset Support:** Different presets can be added for analysis, allowing for comprehensive study and comparison.
 - **Easy Sharing:** Models, codes and presets can be easily shared with the community.
-- **GPL v2 License:** The project is released under the GNU General Public License v3, ensuring that it remains free and open-source.
+- **GPL v3 License:** The project is released under the GNU General Public License v3, ensuring that it remains free and open-source.
 
 ## Roadmap
 
 The project is continuously evolving, and the following features are planned for future releases:
 
 - **Drones and Blowpipes:** Addition of detailed models for drones and blowpipes to complete the Northumbrian small-pipes set.
+      (almost done, except for a blowpipe with a slide parameter)
 - **Left-handed Version:** Development of a left-handed version of the small-pipes to accommodate different player preferences.
 - **Key Designs:** Introduction of various key designs to provide more options for customisation.
 - **Modular Keys Options:** Implementation of modular key options to allow easy swapping and experimentation with 7-key, 9-key, 11-key, 14-key and more configurations.
 - **Undercuts and angled holes:** Incorporation of undercuts and angled holes for improved acoustic performance and historical accuracy.
+- **Array-based parameters:** Implementation of arrays in parameters of the chanter holes to get a more user-friendly interface.
 
 ## Getting Started
 
