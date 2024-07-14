@@ -21,8 +21,7 @@ The Northumbrian small-pipes are a distinctive type of bagpipes native to Northu
 
 The project is continuously evolving, and the following features are planned for future releases:
 
-- **Drones and Blowpipes:** Addition of detailed models for drones and blowpipes to complete the Northumbrian small-pipes set.
-      (almost done, except for a blowpipe with a slide parameter)
+- <del> **Drones and Blowpipes:** Addition of detailed models for drones and blowpipes to complete the Northumbrian small-pipes set. </del>
 - **Left-handed Version:** Development of a left-handed version of the small-pipes to accommodate different player preferences.
 - **Key Designs:** Introduction of various key designs to provide more options for customisation.
 - **Modular Keys Options:** Implementation of modular key options to allow easy swapping and experimentation with 7-key, 9-key, 11-key, 14-key and more configurations.
