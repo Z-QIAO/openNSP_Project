@@ -1,4 +1,4 @@
-// openNSP_project, chanter and blowpipe stock version 1.0
+// openNSP_project, chanter and blowpipe stock version 1.1
 // Zexuan Qiao, 2024
 // under GPL license ver3
 
@@ -14,7 +14,6 @@ decoration1Diameter = 23; //.1
 decoration2Diameter = 24.5; //.1
 decoration3Diameter = 23; //.1
 
-main = 38; //.1
 mainDiameter1 = 22.3; //.1
 mainDiameter2 = 22.7; //.1
 
@@ -23,10 +22,11 @@ grooveDiameter = 20; //.1
 
 bagEnd = 8; //.1
 
-
 boreDiameter1 = 15.5; //.1
 tenon = 26; //.1
 boreDiameter2 = 13.5; //.1
+
+main = stockLOA-ferruleWood-decoration1-decoration2-decoration3-groove-bagEnd;
 
 /* [Utilities] */
 // Segments, the higher the value, the smoother the surface would be.
