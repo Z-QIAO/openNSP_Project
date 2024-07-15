@@ -16,7 +16,6 @@
             "ferruleWoodDiameter": "20.600000000000001",
             "groove": "4",
             "grooveDiameter": "20",
-            "main": "38",
             "mainDiameter1": "22.300000000000001",
             "mainDiameter2": "22.699999999999999",
             "stockLOA": "80"
@@ -36,10 +35,29 @@
             "ferruleWoodDiameter": "20.600000000000001",
             "groove": "4",
             "grooveDiameter": "20",
-            "main": "30",
             "mainDiameter1": "22.300000000000001",
             "mainDiameter2": "22.699999999999999",
             "stockLOA": "65"
+        },
+        "bellow stock": {
+            "$fn": "20",
+            "bagEnd": "8",
+            "boreDiameter1": "15.5",
+            "boreDiameter2": "13.5",
+            "decoration1": "1",
+            "decoration1Diameter": "23",
+            "decoration2": "2",
+            "decoration2Diameter": "24.5",
+            "decoration3": "1",
+            "decoration3Diameter": "23",
+            "ferruleWood": "12",
+            "ferruleWoodDiameter": "20.600000000000001",
+            "groove": "4",
+            "grooveDiameter": "20",
+            "mainDiameter1": "22.300000000000001",
+            "mainDiameter2": "22.699999999999999",
+            "stockLOA": "35",
+            "tenon": "26"
         }
     }
 }
