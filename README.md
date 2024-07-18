@@ -24,10 +24,11 @@ The project is continuously evolving, and the following features are planned for
 - <del> **Drones and Blowpipes:** Addition of detailed models for drones and blowpipes to complete the Northumbrian small-pipes set. </del>
 - **Left-handed Version:** Development of a left-handed version of the small-pipes to accommodate different player preferences.
 - **Key Designs:** Introduction of various key designs to provide more options for customisation.
-- **Modular Keys Options:** Implementation of modular key options to allow easy swapping and experimentation with 7-key, 9-key, 11-key, 14-key and more configurations.
+-  <del> **Modular Keys Options:** Implementation of modular key options to allow easy swapping and experimentation with 7-key, 9-key, 11-key, 14-key and more configurations.</del>
 - **Undercuts and angled holes:** Incorporation of undercuts and angled holes for improved acoustic performance and historical accuracy.
-- **Array-based parameters:** Implementation of arrays in parameters of the chanter holes to get a more user-friendly interface.
-
+- **Array-based parameters:** Implementation of arrays in parameters of the chanter holes to get a more user-friendly interface. (partially done)
+- **Different key implements:** Presets for F, G and possible D chanters and drones in the json files.
+  
 ## Getting Started
 
 ### Prerequisites
