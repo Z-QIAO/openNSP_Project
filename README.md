@@ -27,7 +27,7 @@ The project is continuously evolving, and the following features are planned for
 -  <del> **Modular Keys Options:** Implementation of modular key options to allow easy swapping and experimentation with 7-key, 9-key, 11-key, 14-key and more configurations.</del>
 - **Undercuts and angled holes:** Incorporation of undercuts and angled holes for improved acoustic performance and historical accuracy.
 - **Array-based parameters:** Implementation of arrays in parameters of the chanter holes to get a more user-friendly interface. (partially done)
-- **Different key implements:** Presets for F, G and possible D chanters and drones in the json files.
+-  <del> **Different key implements:** Presets for F, G and possible D chanters and drones in the json files.</del>
   
 ## Getting Started
 
@@ -52,7 +52,7 @@ The project is continuously evolving, and the following features are planned for
 1. Open the `openNSP_Chanter.scad` file in OpenSCAD:
 
     ```bash
-    openscad openNSP_Chanter.scad
+    openscad /chanter/openNSP_Chanter.scad
     ```
 3. View, modify, and render the 3D model as needed.
 4. Export the model to your preferred 3D file format for further use or 3D printing.
@@ -62,11 +62,11 @@ The project is continuously evolving, and the following features are planned for
 1. Open the `openNSP_droneTops.scad` or `openNSP_droneStands.scad` file in OpenSCAD:
 
 ```bash
-openscad openNSP_droneTops.scad
+openscad /drones/openNSP_droneTops.scad
 ```
 or
 ```bash
-openscad openNSP_droneStands.scad
+openscad /drones/openNSP_droneStands.scad
 ```
 
 2. Locate the section of the script that defines the drone profiles. Use the drop-down menu to select the desired drone profile.
