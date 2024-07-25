@@ -1,0 +1,53 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "big D": {
+            "$fn": "20",
+            "bell": "20",
+            "bore": "8",
+            "capLOA": "12",
+            "chamber": "8.5",
+            "decoPos": "2",
+            "decoration": "2",
+            "endOffset": "2",
+            "mainDiameter": "10",
+            "pin": "2"
+        },
+        "big G": {
+            "$fn": "20",
+            "bell": "18",
+            "bore": "7",
+            "capLOA": "11",
+            "chamber": "8",
+            "decoPos": "2",
+            "decoration": "2",
+            "endOffset": "2",
+            "mainDiameter": "9",
+            "pin": "2"
+        },
+        "small D": {
+            "$fn": "20",
+            "bell": "15",
+            "bore": "6.5",
+            "capLOA": "9.5",
+            "chamber": "7.5",
+            "decoPos": "2",
+            "decoration": "1.5",
+            "endOffset": "1",
+            "mainDiameter": "8.5",
+            "pin": "2"
+        },
+        "small G": {
+            "$fn": "20",
+            "bell": "14",
+            "bore": "6",
+            "capLOA": "8",
+            "chamber": "5.5",
+            "decoPos": "1.5",
+            "decoration": "1.5",
+            "endOffset": "1.5",
+            "mainDiameter": "7.5",
+            "pin": "2"
+        }
+    }
+}

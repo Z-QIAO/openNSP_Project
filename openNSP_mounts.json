@@ -1,0 +1,49 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "big D": {
+            "$fn": "20",
+            "bell": "5",
+            "bellDiameter": "16",
+            "bore": "10",
+            "decoPos": "2",
+            "decoration": "2",
+            "endOffset": "1",
+            "mainDiameter": "12.5",
+            "mountLOA": "13.5"
+        },
+        "big G": {
+            "$fn": "20",
+            "bell": "4.5",
+            "bellDiameter": "14",
+            "bore": "9",
+            "decoPos": "2",
+            "decoration": "2",
+            "endOffset": "1",
+            "mainDiameter": "11.5",
+            "mountLOA": "12"
+        },
+        "small D": {
+            "$fn": "20",
+            "bell": "4",
+            "bellDiameter": "12.5",
+            "bore": "7.5",
+            "decoPos": "2",
+            "decoration": "1.5",
+            "endOffset": "1",
+            "mainDiameter": "9.5",
+            "mountLOA": "11"
+        },
+        "small G": {
+            "$fn": "20",
+            "bell": "3.5",
+            "bellDiameter": "11.5",
+            "bore": "7.0999999999999996",
+            "decoPos": "1.5",
+            "decoration": "1.5",
+            "endOffset": "1",
+            "mainDiameter": "8.5",
+            "mountLOA": "9"
+        }
+    }
+}
