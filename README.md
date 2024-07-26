@@ -86,7 +86,7 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 
 ## Acknowledgements
 
-Special thanks to [Mike Nelson](http://www.machineconcepts.co.uk/) for providing knowledge that made this project possible.
+Special thanks to [Mike Nelson](http://www.machineconcepts.co.uk/) for providing knowledge that made this project possible and Francis Wood for the blowpipe design adapted to the project.
 
 ## Disclaimer
 
