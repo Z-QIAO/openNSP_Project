@@ -4,61 +4,61 @@
 
 /* [Chanter basic:] */
 // the main external diameter of the chanter
-chanterDiameter = 12;
+chanterDiameter = 12; //.1
 // the length of the visible section of the chanter
-chanterLOA = 320;
-chanterBrassLength = 25;
-chanterBrassDiameter = 11;
-chanterFootTenor = 8;
+chanterLOA = 320; //.1
+chanterBrassLength = 25; //.1
+chanterBrassDiameter = 11; //.1
+chanterFootTenor = 8; //.1
 // chanter bore size
-chanterBore = 4.3;
+chanterBore = 4.3; //.1
 
 /* [decorations:] */
-shoulder1 = [0, 4, 18];
-shoulder2 = [4, 2, 16];
-shoulder3 = [7, 4, 13];
-shoulder4 = [8, 2, 15];
-centreRing = [127, 2, 14];
-ring1 = [222, 6, 14];
-ring2 = [223, 4, 16];
-ring3 = [263, 6, 14];
-ring4 = [264, 4, 16];
-ring5 = [281, 6, 13];
-ring6 = [282, 4, 15];
+shoulder1 = [0, 4, 18]; //.1
+shoulder2 = [4, 2, 16]; //.1
+shoulder3 = [7, 4, 13]; //.1
+shoulder4 = [8, 2, 15]; //.1
+centreRing = [127, 2, 14]; //.1
+ring1 = [222, 6, 14]; //.1
+ring2 = [223, 4, 16]; //.1
+ring3 = [263, 6, 14]; //.1
+ring4 = [264, 4, 16]; //.1
+ring5 = [281, 6, 13]; //.1
+ring6 = [282, 4, 15]; //.1
 
 /* [Reed socket and tenon:] */
-reedSocketDiameter = 13.5;
-reedSocketLength = 16;
+reedSocketDiameter = 13.5; //.1
+reedSocketLength = 16; //.1
 // close end
-reedSocketBore1 = 6.5;
+reedSocketBore1 = 6.5; //.1
 // open end, enlarge this number can get a tapered socket
-reedSocketBore2 = 6.5;
+reedSocketBore2 = 6.5; //.1
 
 /* [Keymount blocks:] */
-blockWidth = 19;
-blockLengthSingle = 7;
-blockLengthShoulder = 18;
-blockLengthPinky = 13;
-blockLengthLShape = 16;
-blockLengthBack = 20;
-blockDecoration = 2;
-blockPinHoleSize =1.5;
-blockOffset = 15;
-singleSlot = 2;
-doubleSlot = 5;
-slotHeight = 5;
-doubleSpace = 1.5;
+blockWidth = 19; //.1
+blockLengthSingle = 7; //.1
+blockLengthShoulder = 18; //.1
+blockLengthPinky = 13; //.1
+blockLengthLShape = 16; //.1
+blockLengthBack = 20; //.1
+blockDecoration = 2; //.1
+blockPinHoleSize =1.5; //.1
+blockOffset = 15; //.1
+singleSlot = 2; //.1
+doubleSlot = 5; //.1
+slotHeight = 5; //.1
+doubleSpace = 1.5; //.1
 
 /* [Block placements:] */
-blockPosShoulder = 37;
-blockPosHighF = 48;
-blockPosHighEf = 65;
-blockPosHighDf = 80.5;
-blockPosMiddleBf = 90.5;
-blockPosMiddleAf = 114;
-blockPosPinky = 133;
-blockPosLShape = 161.5;
-blockPosBack = 184;
+blockPosShoulder = 37; //.1
+blockPosHighF = 48; //.1
+blockPosHighEf = 65; //.1
+blockPosHighDf = 80.5; //.1
+blockPosMiddleBf = 90.5; //.1
+blockPosMiddleAf = 114; //.1
+blockPosPinky = 133; //.1
+blockPosLShape = 161.5; //.1
+blockPosBack = 184; //.1
 
 /* [Finger hole: EW, NS, position] */
 highG = [4, 4, 31]; //.1
