@@ -40,7 +40,6 @@ translate([0,0,ferruleWood+decoration1]) cylinder(h = decoration2, d = decoratio
 translate([0,0,ferruleWood+decoration1+decoration2])cylinder(h = decoration3, d = decoration3Diameter);
 translate([0,0,ferruleWood+decoration1+decoration2+decoration3]) cylinder(h = main, d1 = mainDiameter1, d2 = mainDiameter2);
 translate([0,0,ferruleWood+decoration1+decoration2+decoration3+main]) cylinder(h = groove, d = grooveDiameter);
-translate([0,0,ferruleWood+decoration1+decoration2+decoration3+main]) cylinder(h = groove, d = grooveDiameter);
 translate([0,0,ferruleWood+decoration1+decoration2+decoration3+main+groove]) cylinder(h = bagEnd, d = mainDiameter2);
 }
 translate([0,0,0]) cylinder(h = tenon, d = boreDiameter2);
