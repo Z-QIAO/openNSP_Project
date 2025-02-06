@@ -1,0 +1,47 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "15\/16 inch": {
+            "$fn": "20",
+            "bagEnd": "16",
+            "bagTenonDiameter": "23.800000000000001",
+            "boreDiameter1": "15.5",
+            "boreDiameter2": "13.5",
+            "decoration1": "1",
+            "decoration1Diameter": "23",
+            "decoration2": "2",
+            "decoration2Diameter": "24.5",
+            "decoration3": "1",
+            "decoration3Diameter": "23",
+            "ferruleWood": "25",
+            "ferruleWoodDiameter": "20.600000000000001",
+            "groove": "10",
+            "grooveDiameter": "22.5",
+            "grooveOffset": "3",
+            "mainDiameter1": "22.300000000000001",
+            "mainDiameter2": "26",
+            "stockLOA": "85",
+            "tenon": "26"
+        },
+        "1 inch\/25mm": {
+            "$fn": "20",
+            "bagEnd": "24.5",
+            "bagTenonDiameter": "25",
+            "boreDiameter1": "15.5",
+            "boreDiameter2": "13.5",
+            "decoration1": "1",
+            "decoration1Diameter": "23",
+            "decoration2": "2",
+            "decoration2Diameter": "24.5",
+            "decoration3": "1",
+            "decoration3Diameter": "23",
+            "ferruleWood": "25",
+            "ferruleWoodDiameter": "20.600000000000001",
+            "grooveDiameter": "24.199999999999999",
+            "mainDiameter1": "22.300000000000001",
+            "mainDiameter2": "26.5",
+            "stockLOA": "85",
+            "tenon": "26"
+        }
+    }
+}
