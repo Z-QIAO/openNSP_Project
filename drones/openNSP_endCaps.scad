@@ -1,5 +1,6 @@
-// openNSP_project, end caps section version 1.0
-// Zexuan Qiao, 2024
+// openNSP_project, end caps section version 1.1
+// the end caps for both drones and chanters
+// Zexuan Qiao, 2025
 // under GPL license ver3
 
 capLOA = 12; //.1

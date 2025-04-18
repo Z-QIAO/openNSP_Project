@@ -48,6 +48,18 @@
             "endOffset": "1.5",
             "mainDiameter": "7.5",
             "pin": "2"
+        },
+        "chanter": {
+            "$fn": "20",
+            "bell": "25",
+            "bore": "8",
+            "capLOA": "16",
+            "chamber": "13",
+            "decoPos": "2",
+            "decoration": "2",
+            "endOffset": "3",
+            "mainDiameter": "12",
+            "pin": "0"
         }
     }
 }
